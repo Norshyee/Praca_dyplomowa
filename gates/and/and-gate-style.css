@@ -1,0 +1,19 @@
+.A {
+    stroke: black;
+    stroke-width: 1;
+}
+
+.B {
+    stroke: black;
+    stroke-width: 1;
+}
+
+.C {
+    stroke: black;
+    stroke-width: 1;
+}
+
+.figure {
+    fill:white; 
+    stroke:black;
+}
