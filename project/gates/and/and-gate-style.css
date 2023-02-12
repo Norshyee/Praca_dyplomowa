@@ -1,19 +1,19 @@
-.A {
+#gA {
     stroke: black;
     stroke-width: 1;
 }
 
-.B {
+#gB {
     stroke: black;
     stroke-width: 1;
 }
 
-.C {
+#gC {
     stroke: black;
     stroke-width: 1;
 }
 
-.figure {
+#figure {
     fill:white; 
     stroke:black;
 }

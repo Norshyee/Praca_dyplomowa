@@ -1,0 +1,42 @@
+body {
+    padding: 20;
+    background-color: lightgray;
+}
+
+#visualization {
+    display: flex;
+    flex-direction: row;
+}
+
+#visualization object {
+    width: 300;
+    height: 200;
+}
+
+#a, #b, #c{
+    display: flex;
+    flex-direction: column;
+    height: fit-content;
+    width: 50;
+    text-align: center;
+}
+
+#a {
+    margin-top: 48;
+}
+
+#b {
+    margin-top: 68;
+}
+
+#c {
+    margin-top: 92;
+}
+
+input[type="number"]::-webkit-inner-spin-button {
+    opacity: 1;
+}
+
+input[type="button"] {
+    margin-top: 10;
+}
