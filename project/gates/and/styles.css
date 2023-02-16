@@ -40,3 +40,15 @@ input[type="number"]::-webkit-inner-spin-button {
 input[type="button"] {
     margin-top: 10;
 }
+
+table {
+    color: black;
+    width: 200;
+    height: 200;
+    margin-left: 50;
+    text-align: center;
+}
+
+table, th, td {
+    border: 1px solid black;
+}

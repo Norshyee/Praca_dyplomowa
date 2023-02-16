@@ -1,0 +1,57 @@
+<!DOCTYPE html styles="styles.css">
+<html>
+
+<head>
+    <title>Bramka logiczna AND</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" type="text/javascript"></script>
+</head>
+
+<body>
+    <div id="content">
+        <h1>Bramka logiczna - AND</h1>
+        <form>
+            <div id="visualization">
+                <div>
+                    <input id="a" type="number" min="0" max="1" value="0" onKeyDown="return false" required />
+                    <input id="b" type="number" min="0" max="1" value="0" onKeyDown="return false" required />
+                </div>
+                <object id="and-gate" data="svg/and-gate.svg" type="image/svg+xml"></object>
+                <input id="c" readonly />
+                <table id="boardOfTruth">
+                    <tr>
+                        <th>A</th>
+                        <th>B</th>
+                        <th>Q</th>
+                    </tr>
+                    <tr>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td>0</td>
+                        <td>0</td>
+                    </tr>
+                    <tr>
+                        <td>0</td>
+                        <td>1</td>
+                        <td>0</td>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td>1</td>
+                        <td>1</td>
+                    </tr>
+                </table>
+            </div>
+            <div>
+                <input type="button" value="Losuj" onclick="randomInputs()" />
+                <input type="button" value="Generuj" onclick="andGateOutput()" />
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>

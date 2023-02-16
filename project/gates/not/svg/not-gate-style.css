@@ -1,14 +1,14 @@
-.A {
+#gA {
     stroke: black;
     stroke-width: 1;
 }
 
-.B {
+#gC {
     stroke: black;
     stroke-width: 1;
 }
 
-.figure {
+#figure {
     fill:white; 
     stroke:black;
 }

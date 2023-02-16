@@ -1,0 +1,46 @@
+body {
+    padding: 20;
+    background-color: lightgray;
+}
+
+#visualization {
+    display: flex;
+    flex-direction: row;
+}
+
+#visualization object {
+    width: 300;
+    height: 200;
+}
+
+#a, #c{
+    display: flex;
+    flex-direction: column;
+    height: fit-content;
+    width: 50;
+    text-align: center;
+}
+
+#a, #c {
+    margin-top: 92;
+}
+
+input[type="number"]::-webkit-inner-spin-button {
+    opacity: 1;
+}
+
+input[type="button"] {
+    margin-top: 10;
+}
+
+table {
+    color: black;
+    width: 150;
+    height: 150;
+    margin-left: 50;
+    text-align: center;
+}
+
+table, th, td {
+    border: 1px solid black;
+}
