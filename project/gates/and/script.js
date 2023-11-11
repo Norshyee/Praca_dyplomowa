@@ -38,4 +38,5 @@ function andGateOutput() {
 function randomInputs() {
     document.getElementById("a").value = (Math.random() >= 0.5) ? 1 : 0;
     document.getElementById("b").value = (Math.random() >= 0.5) ? 1 : 0;
+    andGateOutput();
 }

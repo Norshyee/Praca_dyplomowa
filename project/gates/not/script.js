@@ -28,4 +28,5 @@ function notGateOutput() {
 function randomInputs() {
     var a = document.getElementById("a").value;
     document.getElementById("a").value = (a == 0) ? '1' : '0';
+    notGateOutput();
 }
